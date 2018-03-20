@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HttpCode</title>
+  <script src="controller.js"></script>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+  <h1 align="center">HttpCode</h1>
+   
+  
+  <div  align="center" width="100" id="table">
+    <br/>
+    <table border="2" bordercolor="blue" cellspacing="5" cellpadding="5"> 
+                    <tr bgcolor="LightSalmon">
+     
+      <th align="center" width="100" >Status</th>
+        <th align="center" width="100">Message</th>
+		<th align="center" width="100">Link</th>
+		
+		
+       
+      </tr>
+      <tbody  align="center" id="precios">
+      </tbody>
+    </table>
+    <br/>
+  </div>
+
+  <div hidden id="formprecios">
+  
+    Status:
+    <input type="number" id="Status" placeholder="Status" required/>
+    <br/> 
+	Message:
+    <input type="text" id="Message" placeholder="Message" required/>
+<br/> 
+	<input type="button"  value="Editar" onclick="editData()" />
+  </div>
+</body>
+
+</html>

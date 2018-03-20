@@ -1,0 +1,46 @@
+{
+	"HttpCode":[
+		{
+		"Status":"200",
+		"Message":"OK"
+		
+		
+		},
+		{
+		"Status":"201",
+		"Message":"No content"
+		
+		},
+		{
+		"Status":"400",
+		"Message":"Bad Request"
+	
+		},
+		{
+	    "Status":"401",
+		"Message":"Unauthorized"
+	
+		},
+		{
+		"Status":"403",
+		"Message":"Forbidden"
+	
+		},
+		{
+		"Status":"404",
+		"Message":"Not Found"
+		
+		},
+		{
+		"Status":"500",
+		"Message":"Internal Server Error"
+	
+		},
+		{
+	    "Status":"501",
+		"Message":"Not Implemented"
+	
+		}
+		
+	]
+}
